@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public bool xVarMi = true;
     public bool collectibleVarMi = true;
 
+    
+
 
     private void Awake()
     {
@@ -34,18 +36,21 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("collectible"))
         {
             // COLLECTIBLE CARPINCA YAPILACAKLAR...
+            Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
-
+            GetComponent<SpawnWithDistance>().Spawn(); // Dairesel şekilde Spawn ediyor.Obje sayısı arttıkça kendi içersinde tekrar düzenleme yapıyor
+          
         }
         else if (other.CompareTag("engel"))
         {
             // ENGELELRE CARPINCA YAPILACAKLAR....
+          
             GameController.instance.SetScore(-collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
             if (GameController.instance.score < 0) // SKOR SIFIRIN ALTINA DUSTUYSE
 			{
                 // FAİL EVENTLERİ BURAYA YAZILACAK..
-                GameController.instance.isContinue = false; // çarptığı anda oyuncunun yerinde durması ilerlememesi için
-                UIController.instance.ActivateLooseScreen(); // Bu fonksiyon direk çağrılada bilir veya herhangi bir effect veya animasyon bitiminde de çağrılabilir..
+                        //burayı aç GameController.instance.isContinue = false; // çarptığı anda oyuncunun yerinde durması ilerlememesi için
+                        // burayı aç UIController.instance.ActivateLooseScreen(); // Bu fonksiyon direk çağrılada bilir veya herhangi bir effect veya animasyon bitiminde de çağrılabilir..
                 // oyuncu fail durumunda bu fonksiyon çağrılacak.. 
 			}
 
@@ -72,14 +77,14 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     public void StartingEvents()
     {
-
         transform.parent.transform.rotation = Quaternion.Euler(0, 0, 0);
         transform.parent.transform.position = Vector3.zero;
         GameController.instance.isContinue = false;
         GameController.instance.score = 0;
         transform.position = new Vector3(0, transform.position.y, 0);
         GetComponent<Collider>().enabled = true;
-
+        GetComponent<SpawnWithDistance>().DestroyLolipops();
+        GetComponent<SpawnWithDistance>().objectNumber = 1;
     }
 
 }

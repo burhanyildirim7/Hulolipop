@@ -92,7 +92,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3961874589689333334}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -144,7 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c309fbe52c9e0642b28d0aee2cf1caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 7270093759226220032, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
 --- !u!65 &8826269668028052804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -250,7 +249,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8086439985199586152}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5

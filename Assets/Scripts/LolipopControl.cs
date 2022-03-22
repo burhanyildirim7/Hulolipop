@@ -27,9 +27,11 @@ public class LolipopControl : MonoBehaviour
             transform.position = other.gameObject.transform.position;
          
             transform.parent = other.transform;
+            transform.tag = "Untagged";
             other.gameObject.tag = "Untagged";
-            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber--;
-
+            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 2;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().Spawn();
         }
+ 
     }
 }

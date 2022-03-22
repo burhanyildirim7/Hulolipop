@@ -83,6 +83,31 @@ public class SpawnWithDistance : MonoBehaviour
       
     }
 
+    public void SpawnAfterLips()
+    {
+        DestroyLolipops();
+        objectNumber -= 1;
+        CreateEnemiesAroundPoint(objectNumber, transform.position, rad);
+        
+
+        if (objectNumber == 16 || objectNumber == 26)
+        {
+            rad += 0.15f;
+            transform.localScale += new Vector3(0.3f, 0, 0.3f);
+        }
+
+
+
+
+
+
+        if (objectNumber == 28)
+        {
+            rad += 0.08f;
+            transform.localScale += new Vector3(0.12f, 0, 0.12f);
+        }
+    }
+
     
 
     public void DestroyLolipops()

@@ -25,6 +25,11 @@ public class PlayerController : MonoBehaviour
         StartingEvents();
     }
 
+     void Update()
+    {
+        transform.GetChild(0).transform.Rotate(0, 50*Time.deltaTime, 0);
+    }
+
     /// <summary>
     /// Playerin collider olaylari.. collectible, engel veya finish noktasi icin. Burasi artirilabilir.
     /// elmas icin veya baska herhangi etkilesimler icin tag ekleyerek kontrol dongusune eklenir.

@@ -871,7 +871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f62358d721135b4182bb84dc4abc9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obje: {fileID: 4032343293618709095, guid: 3a8ad1e4c75c0cc409e9628dc0a38728, type: 3}
+  obje: {fileID: 5790715471341289866, guid: 4768d9b597e28364da28ca8d7ac0df59, type: 3}
   objectNumber: 1
 --- !u!4 &1454654437 stripped
 Transform:
@@ -1116,8 +1116,8 @@ MonoBehaviour:
   tempLevelNo: 0
   totalLevelNo: 0
   levels:
-  - {fileID: 2326151854888573912, guid: ab3fdb45381358a42bbb5b36e3904ecb, type: 3}
-  - {fileID: 2326151854888573912, guid: ab3fdb45381358a42bbb5b36e3904ecb, type: 3}
+  - {fileID: 1436698430672878065, guid: 0503cd1e22ee92d40be420f8f02df941, type: 3}
+  - {fileID: 6660576955891648261, guid: 46a79c7da0e7d8249830f292b0c15509, type: 3}
 --- !u!1 &664173345876672193
 GameObject:
   m_ObjectHideFlags: 0

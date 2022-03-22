@@ -464,6 +464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lolipoplar (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
+      objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -510,6 +514,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886463642708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429191408365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6151627329353592770
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886463642708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886463642711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -525,6 +547,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_RootOrder
@@ -572,6 +598,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529197705052928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698429205482625}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &225968033031453370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529197705052928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091851640999529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -587,6 +631,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -634,6 +682,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886515386057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429207498864}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8725879929317754244
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886515386057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886515386058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -649,6 +715,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -696,6 +766,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886501549884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429221056901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5758934139351003386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886501549884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886501549887 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -711,6 +799,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -763,6 +855,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698429287932566}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321886434206767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429287932566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8788763647345472760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886434206767}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698429303463180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -777,6 +887,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -826,8 +940,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7111832778948639448, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1347
+      objectReference: {fileID: 0}
+    - target: {fileID: 7111832778948639448, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0727
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529197743264397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698429303463180}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2273617695606507288
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529197743264397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091851543945188 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -843,6 +983,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -890,6 +1034,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886222424000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429449310585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1249648019456056090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886222424000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886222424003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -905,6 +1067,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -952,6 +1118,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886247994633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429474882480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7885822482813908277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886247994633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886247994634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -967,6 +1151,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1019,6 +1207,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698429479759759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321886259161398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429479759759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1638389593096083807
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886259161398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698429577430109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1029,6 +1235,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1076,6 +1286,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886077780708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429577430109}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1927058618616534887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886077780708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886077780711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -1091,6 +1319,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1138,6 +1370,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886073569833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429598254224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5907213637908521172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886073569833}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886073569834 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -1157,6 +1407,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -1206,8 +1460,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7111832778948639448, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1314
+      objectReference: {fileID: 0}
+    - target: {fileID: 7111832778948639448, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0689
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529197557123970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698429623813123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5185971797788427285
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529197557123970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091851486807787 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -1223,6 +1503,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1270,6 +1554,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886051202468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429688214301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8564294982369276613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886051202468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886051202471 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -1285,6 +1587,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1337,6 +1643,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698429689093735}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321886050113758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429689093735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6489887548361294074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886050113758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698429691818144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1426,6 +1750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lolipoplar (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
+      objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -1477,6 +1805,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698429749779266}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887062908411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429749779266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5884943554392241519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887062908411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698429761328108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1487,6 +1833,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1534,6 +1884,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887034479957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429761328108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &511983922822805089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887034479957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887034479958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -1549,6 +1917,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1596,6 +1968,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886983889905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429812450632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3582212332434979394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886983889905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886983889906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -1611,6 +2001,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1658,6 +2052,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886895413544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429850853265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1628813910946504896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886895413544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886895413547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -1673,6 +2085,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1725,6 +2141,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698429870350443}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321886875199186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429870350443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5394330795299214243
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886875199186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698429891240389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1747,6 +2181,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -1802,6 +2240,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198361488964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698429891240389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1923559098470622568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198361488964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852293202733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -1817,6 +2273,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1864,6 +2324,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886909821481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429902877840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2811284956949588430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886909821481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886909821482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -1879,6 +2357,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1931,6 +2413,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698429910297098}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321886818675891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698429910297098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &450698052654168486
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886818675891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698430022457122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1941,6 +2441,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -1993,6 +2497,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698430022457122}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321886790193563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430022457122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5697184177150764944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886790193563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698430023982704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2003,6 +2525,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2050,6 +2576,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886788704457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430023982704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &426937022470380441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886788704457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886788704458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -2065,6 +2609,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2112,6 +2660,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886653290857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430143373264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &582964635001712448
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886653290857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886653290858 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -2127,6 +2693,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2174,6 +2744,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886559885149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430186410468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4164299433639511569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886559885149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886559885150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -2189,6 +2777,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2236,6 +2828,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321886584156265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430211733200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8561583609751215640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321886584156265}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321886584156266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -2251,6 +2861,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_RootOrder
@@ -2298,6 +2912,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198145501232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430241454001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2137888154601096067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198145501232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091851947160921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -2317,6 +2949,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -2368,6 +3004,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198779675532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430280072205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5995788901176905897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198779675532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852713492197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -2387,6 +3041,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -2438,6 +3096,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198872299116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430321904109}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4513438220982114482
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198872299116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852604328709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -2453,6 +3129,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2500,6 +3180,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887531697905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430354882632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3805528503201350334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887531697905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887531697906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -2519,6 +3217,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -2570,6 +3272,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198892534865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430435886032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3776297865663678579
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198892534865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852827361592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -2585,6 +3305,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2632,72 +3356,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887347936524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430472063925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3739803608367908548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887347936524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.6545942, z: 1}
+  m_Center: {x: 0, y: -0.8272971, z: 0}
 --- !u!4 &8166321887347936527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698430472063925}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1436698430507736003
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1436698430640552027}
-    m_Modifications:
-    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_Name
-      value: Lolipoplar (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
---- !u!4 &8166321887379414393 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
-  m_PrefabInstance: {fileID: 1436698430507736003}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1436698430526230964
 PrefabInstance:
@@ -2709,6 +3389,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2756,6 +3440,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887293052685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430526230964}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3745977059107811820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887293052685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887293052686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -2771,6 +3473,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2823,6 +3529,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698430527563375}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887292285142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430527563375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2741488288000432964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887292285142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698430546448622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2833,6 +3557,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2885,6 +3613,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698430546448622}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887323625047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430546448622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &9079547907767884851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887323625047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698430578227581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2895,6 +3641,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2942,6 +3692,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887308218308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430578227581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5189487251682818023
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887308218308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887308218311 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -2957,6 +3725,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -3012,6 +3784,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198607998476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430586081677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5751652299725911487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198607998476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852340024165 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -3027,6 +3817,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3074,6 +3868,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887229323240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430590427473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2558425087114017757
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887229323240}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887229323243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3089,6 +3901,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -3148,6 +3964,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198580876723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430613457458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &518839004576925733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198580876723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852375787738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -3163,6 +3997,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3210,6 +4048,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887235498384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430634354473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &115633743827863795
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887235498384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887235498387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3225,6 +4081,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3272,6 +4132,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887244610665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430642547408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3087274880642970966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887244610665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887244610666 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3287,6 +4165,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3334,6 +4216,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887242699009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430643652536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &718834066506365393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887242699009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887242699010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3349,6 +4249,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -3404,6 +4308,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198670729582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430657699567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5889253617714367006
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198670729582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852537469959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -3419,6 +4341,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3466,6 +4392,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887144084756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430675190701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7759435414407171054
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887144084756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887144084759 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3485,6 +4429,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_RootOrder
@@ -3532,6 +4480,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529198741165299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698430719253362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &896293287163008445
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529198741165299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091852475292058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -3547,6 +4513,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3594,6 +4564,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887071604576 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430731684313}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6105187138353195764
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887071604576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887071604579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3609,6 +4597,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3656,6 +4648,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887129639576 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430757215265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2330979065011702940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887129639576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887129639579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3671,6 +4681,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3723,6 +4737,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698430766786727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887103561246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430766786727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4698855063137452282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887103561246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698430774595344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3733,6 +4765,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3780,6 +4816,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887112546729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430774595344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8329088567722109528
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887112546729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887112546730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3795,6 +4849,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3842,6 +4900,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321888102102237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430791201380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3000753175142245577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321888102102237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321888102102238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3857,6 +4933,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3904,6 +4984,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321888107008349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430836873188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5000113065310404825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321888107008349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321888107008350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -3919,6 +5017,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3971,6 +5073,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698430915339910}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887960948799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430915339910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &442213036298023440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887960948799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698430957501378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3981,6 +5101,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4033,6 +5157,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698430957501378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321888003112315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430957501378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1836264893342953729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321888003112315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698430977170373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4043,6 +5185,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4090,6 +5236,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887982935420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698430977170373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &893504382398227326
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887982935420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887982935423 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -4105,6 +5269,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4157,6 +5325,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698431145826723}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887748022042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698431145826723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2467566649805749593
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887748022042}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698431154771308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4167,6 +5353,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4214,6 +5404,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+--- !u!1 &8166321887789339605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698431154771308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8098826570429163099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887789339605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8166321887789339606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
@@ -4229,6 +5437,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4281,6 +5493,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698431204005410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887673028763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698431204005410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2749492602590772283
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887673028763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698431204782443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4291,6 +5521,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4343,6 +5577,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698431204782443}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887671711698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698431204782443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8649171411180693360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887671711698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698431291389414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4353,6 +5605,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4405,6 +5661,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698431291389414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887652279135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698431291389414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &89180891485451726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887652279135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1436698431298598698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4415,6 +5689,10 @@ PrefabInstance:
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_Name
       value: Lolipoplar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+      propertyPath: m_TagString
+      value: collectible
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4467,6 +5745,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
   m_PrefabInstance: {fileID: 1436698431298598698}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8166321887661584787 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
+  m_PrefabInstance: {fileID: 1436698431298598698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2577435965743474482
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166321887661584787}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.795676, z: 1}
+  m_Center: {x: 0, y: -0.89783776, z: 0}
 --- !u!1001 &1436698431305046052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4477,6 +5773,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -4532,6 +5832,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+--- !u!1 &4463529199228983205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 1436698431305046052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8680798023042547705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463529199228983205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!4 &8341091853027531468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
@@ -4555,6 +5873,10 @@ PrefabInstance:
     - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_Name
       value: Kafalar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+      propertyPath: m_TagString
+      value: engel
       objectReference: {fileID: 0}
     - target: {fileID: 3622851517630418262, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
       propertyPath: m_IsActive
@@ -4622,4 +5944,84 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6931514010605978344, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
   m_PrefabInstance: {fileID: 5749188622587963133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7046076382782056828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3315082207242801025, guid: 0a0d91970748d744d8a7ccb77ce7ab33, type: 3}
+  m_PrefabInstance: {fileID: 5749188622587963133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4967383087355554581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7046076382782056828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.4, z: 0.2}
+  m_Center: {x: 0, y: 0.15, z: 0}
+--- !u!1001 &8902248085023065756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1436698430640552027}
+    m_Modifications:
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998353680814601384, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+      propertyPath: m_Name
+      value: Lolipoplar (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+--- !u!4 &8166321887379414393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 783548316151241701, guid: 71ffe8c7ecae91e4f89879a2bd3474eb, type: 3}
+  m_PrefabInstance: {fileID: 8902248085023065756}
   m_PrefabAsset: {fileID: 0}

@@ -694,6 +694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7270093759226220032, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1971087654543591358, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
@@ -843,6 +847,7 @@ MonoBehaviour:
   collectibleDegeri: 10
   xVarMi: 1
   collectibleVarMi: 1
+  isFinish: 0
 --- !u!54 &1443049515
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public bool xVarMi = true;
     public bool collectibleVarMi = true;
 
-    
+    public bool isFinish = false;
 
 
     private void Awake()
@@ -44,25 +45,25 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
             GetComponent<SpawnWithDistance>().Spawn(); // Dairesel şekilde Spawn ediyor.Obje sayısı arttıkça kendi içersinde tekrar düzenleme yapıyor
-          
+
         }
         else if (other.CompareTag("engel"))
         {
             // ENGELELRE CARPINCA YAPILACAKLAR....
-          
+
             GameController.instance.SetScore(-collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
-          
+
             if (GameController.instance.score < 0) // SKOR SIFIRIN ALTINA DUSTUYSE
-			{
+            {
                 // FAİL EVENTLERİ BURAYA YAZILACAK..
-                        //burayı aç GameController.instance.isContinue = false; // çarptığı anda oyuncunun yerinde durması ilerlememesi için
-                        // burayı aç UIController.instance.ActivateLooseScreen(); // Bu fonksiyon direk çağrılada bilir veya herhangi bir effect veya animasyon bitiminde de çağrılabilir..
+                //burayı aç GameController.instance.isContinue = false; // çarptığı anda oyuncunun yerinde durması ilerlememesi için
+                // burayı aç UIController.instance.ActivateLooseScreen(); // Bu fonksiyon direk çağrılada bilir veya herhangi bir effect veya animasyon bitiminde de çağrılabilir..
                 // oyuncu fail durumunda bu fonksiyon çağrılacak.. 
-			}
+            }
 
 
         }
-        else if (other.CompareTag("finish")) 
+        else if (other.CompareTag("finish"))
         {
             // finishe collider eklenecek levellerde...
             // FINISH NOKTASINA GELINCE YAPILACAKLAR... Totalscore artırma, x işlemleri, efektler v.s. v.s.
@@ -70,9 +71,17 @@ public class PlayerController : MonoBehaviour
             GameController.instance.ScoreCarp(7);  // Bu fonksiyon normalde x ler hesaplandıktan sonra çağrılacak. Parametre olarak x i alıyor. 
             // x değerine göre oyuncunun total scoreunu hesaplıyor.. x li olmayan oyunlarda parametre olarak 1 gönderilecek.
             UIController.instance.ActivateWinScreen(); // finish noktasına gelebildiyse her türlü win screen aktif edilecek.. ama burada değil..
-            // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
+                                                       // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
 
+
+        }
+
+        else if (other.CompareTag("finishTrigger"))
+        {
+            isFinish = true;
+            StartCoroutine(turnHulahop());
             
+            // transform.DORotate
         }
 
     }
@@ -91,6 +100,13 @@ public class PlayerController : MonoBehaviour
         GetComponent<Collider>().enabled = true;
         GetComponent<SpawnWithDistance>().DestroyLolipops();
         GetComponent<SpawnWithDistance>().objectNumber = 1;
+    }
+
+    IEnumerator turnHulahop()
+    {
+        yield return new WaitForSeconds(1);
+        transform.DORotate(new Vector3(0, 0, 90), 7 * Time.deltaTime);
+        transform.DOMoveY(4, 7 * Time.deltaTime);
     }
 
 }

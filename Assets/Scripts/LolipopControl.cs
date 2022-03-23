@@ -6,28 +6,42 @@ using DG.Tweening;
 public class LolipopControl : MonoBehaviour
 {
     public GameObject player;
+
+    private bool isFinish = false;
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player").transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (player!=null)
+
+
+     
+
+        if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().isFinish == false)
         {
-            transform.LookAt(player.transform.position);
+            if (player != null)
+            {
+                transform.LookAt(player.transform.position);
+
+            }
+            else
+            {
+
+            }
+
+            transform.GetChild(2).GetComponent<Animator>().enabled = false;
         }
-        else
-        {
-          //  transform.eulerAngles = new Vector3(0, 180, 0);
-        }
-      
-        transform.GetChild(2).GetComponent<Animator>().enabled = false;
+
+        Debug.Log(isFinish);
+        
     }
 
      void OnTriggerEnter(Collider other)
     {
+        
         if (other.gameObject.tag == "engel")
         {
 
@@ -55,10 +69,12 @@ public class LolipopControl : MonoBehaviour
             transform.parent = null;
             transform.tag = "Untagged";
             other.gameObject.tag = "Untagged";
-            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 2;
-            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().Spawn();
+            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 1;
+            
             transform.eulerAngles = new Vector3(-90, 0, 0);
         }
+
+    
  
     }
 }

@@ -25,4 +25,19 @@ public class KarakterPaketiMovement : MonoBehaviour
         
     }
 
+     void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "finishTrigger")
+        {
+            StartCoroutine(speedControl());
+        }
+    }
+
+    IEnumerator speedControl()
+    {
+        _speed = 0;
+        yield return new WaitForSeconds(3);
+        _speed = 5;
+    }
+
 }

@@ -13,6 +13,8 @@ TagManager:
   - elmas
   - collected
   - finishKafa
+  - finishTrigger
+  - lolipop
   layers:
   - Default
   - TransparentFX

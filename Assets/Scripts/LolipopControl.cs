@@ -14,8 +14,15 @@ public class LolipopControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-        transform.LookAt(player.transform.position);
+        if (player!=null)
+        {
+            transform.LookAt(player.transform.position);
+        }
+        else
+        {
+          //  transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+      
         transform.GetChild(2).GetComponent<Animator>().enabled = false;
     }
 
@@ -23,12 +30,12 @@ public class LolipopControl : MonoBehaviour
     {
         if (other.gameObject.tag == "engel")
         {
-            Debug.Log("Temas var");
+
             player = null;
             transform.rotation = Quaternion.LookRotation(transform.position - other.transform.position);
             // transform.position = new Vector3(other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.x+0.3f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.y+0.2f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.z+0.8f);
             // transform.parent = other.gameObject.transform;
-            transform.DOMove( new Vector3(other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.x + 0.2f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.y, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.z + 0.9f),10*Time.deltaTime);
+            transform.DOMove( new Vector3(other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.x, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.y, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.z + 0.9f),10*Time.deltaTime);
          
             //transform.parent = other.transform;
             transform.parent = null;
@@ -39,6 +46,18 @@ public class LolipopControl : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
             transform.eulerAngles = new Vector3(0, 180, 0);
 
+        }
+
+        if (other.gameObject.tag == "finishKafa")
+        {
+            player = null;
+            transform.DOMove(new Vector3(0,1,transform.position.z),5*Time.deltaTime);
+            transform.parent = null;
+            transform.tag = "Untagged";
+            other.gameObject.tag = "Untagged";
+            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 2;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().Spawn();
+            transform.eulerAngles = new Vector3(-90, 0, 0);
         }
  
     }

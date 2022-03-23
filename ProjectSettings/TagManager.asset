@@ -12,6 +12,7 @@ TagManager:
   - collectible
   - elmas
   - collected
+  - finishKafa
   layers:
   - Default
   - TransparentFX

@@ -36,8 +36,8 @@ public class SpawnWithDistance : MonoBehaviour
             var spawnPos = point + spawnDir * radius; 
 
            
-            var unit = Instantiate(obje, Vector3.MoveTowards(transform.position,spawnPos,2), Quaternion.identity) as GameObject;
-            Debug.Log(spawnPos);
+            var unit = Instantiate(obje, spawnPos, Quaternion.identity) as GameObject;
+
      
             unit.transform.tag = "collected";
            
@@ -48,7 +48,7 @@ public class SpawnWithDistance : MonoBehaviour
 
            
 
-          //  unit.transform.Translate(new Vector3(0, 0, 0));
+          unit.transform.Translate(new Vector3(0, 0, 0));
 
           
             
@@ -66,50 +66,69 @@ public class SpawnWithDistance : MonoBehaviour
     {
         DestroyLolipops();
 
-          CreateEnemiesAroundPoint(objectNumber, transform.position, rad);
+      
+
+
+        if (objectNumber >= 12)
+        {
+            rad = 2.3f;
+            transform.localScale = new Vector3(1.3f, 1, 1.3f);
+            
+        }
+
+
+        if (objectNumber >= 18)
+        {
+            rad = 2.6f;
+            transform.localScale = new Vector3(1.6f, 1, 1.6f);
+
+        }
+
+        if (objectNumber >= 24)
+        {
+            rad = 2.9f;
+            transform.localScale = new Vector3(1.9f, 1, 1.9f);
+
+        }
+
+
+        CreateEnemiesAroundPoint(objectNumber, transform.position, rad);
         objectNumber += 1;
 
-        if (objectNumber == 16 || objectNumber == 26)
-        {
-            rad += 0.15f;
-            transform.localScale += new Vector3(0.3f, 0, 0.3f);
-        }
 
 
 
 
-
-
-        if (objectNumber == 28)
-        {
-            rad += 0.08f;
-            transform.localScale += new Vector3(0.12f, 0, 0.12f);
-        }
-      
     }
 
     public void SpawnAfterLips()
     {
         DestroyLolipops();
         objectNumber -= 1;
-        CreateEnemiesAroundPoint(objectNumber, transform.position, rad);
-        
+        //CreateEnemiesAroundPoint(objectNumber, transform.position, rad);
+        Spawn();
 
-        if (objectNumber == 16 || objectNumber == 26)
+
+        if (objectNumber >= 12)
         {
-            rad += 0.15f;
-            transform.localScale += new Vector3(0.3f, 0, 0.3f);
+            rad = 2.3f;
+            transform.localScale = new Vector3(1.3f, 1, 1.3f);
+
         }
 
 
-
-
-
-
-        if (objectNumber == 28)
+        if (objectNumber >= 18)
         {
-            rad += 0.08f;
-            transform.localScale += new Vector3(0.12f, 0, 0.12f);
+            rad = 2.6f;
+            transform.localScale = new Vector3(1.6f, 1, 1.6f);
+
+        }
+
+        if (objectNumber >= 24)
+        {
+            rad = 2.9f;
+            transform.localScale = new Vector3(1.9f, 1, 1.9f);
+
         }
     }
 

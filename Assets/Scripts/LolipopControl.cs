@@ -35,7 +35,7 @@ public class LolipopControl : MonoBehaviour
             transform.GetChild(2).GetComponent<Animator>().enabled = false;
         }
 
-        Debug.Log(isFinish);
+     
         
     }
 

@@ -96,5 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f62358d721135b4182bb84dc4abc9a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obje: {fileID: 4032343293618709095, guid: 3a8ad1e4c75c0cc409e9628dc0a38728, type: 3}
+  nextLolipop: {fileID: 0}
+  morLolipop: {fileID: 334951563642176432, guid: ba7e17c5acb99a640ade9e3dd470f11e, type: 3}
+  "sar\u0131Lolipop": {fileID: 4654185451127035975, guid: b86200af3a37e0844bac9a09c19cc882, type: 3}
+  limonluLolipop: {fileID: 6491890951739238613, guid: 5c13b413d38bb2b4b9061781412298fb, type: 3}
+  karpuzluLolipop: {fileID: 5790715471341289866, guid: 4768d9b597e28364da28ca8d7ac0df59, type: 3}
   objectNumber: 1

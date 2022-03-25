@@ -6,7 +6,12 @@ using UnityEngine;
 public class SpawnWithDistance : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject obje;
+    public GameObject nextLolipop;
+
+    public GameObject morLolipop;
+    public GameObject sarýLolipop;
+    public GameObject limonluLolipop;
+    public GameObject karpuzluLolipop;
 
     GameObject[] lolipop;
 
@@ -36,7 +41,7 @@ public class SpawnWithDistance : MonoBehaviour
             var spawnPos = point + spawnDir * radius; 
 
            
-            var unit = Instantiate(obje, spawnPos, Quaternion.identity) as GameObject;
+            var unit = Instantiate(nextLolipop, spawnPos, Quaternion.identity) as GameObject;
 
      
             unit.transform.tag = "collected";

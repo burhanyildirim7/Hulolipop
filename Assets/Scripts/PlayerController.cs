@@ -28,7 +28,8 @@ public class PlayerController : MonoBehaviour
 
      void Update()
     {
-        transform.GetChild(0).transform.Rotate(0, 50*Time.deltaTime, 0);
+
+        transform.GetChild(0).transform.Rotate(0, -50*Time.deltaTime, 0);
     }
 
     /// <summary>
@@ -45,6 +46,22 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
             GetComponent<SpawnWithDistance>().Spawn(); // Dairesel şekilde Spawn ediyor.Obje sayısı arttıkça kendi içersinde tekrar düzenleme yapıyor
+
+        }
+        else if (other.CompareTag("LimonluLolipop"))
+        {
+
+        }
+        else if (other.CompareTag("MorLolipop"))
+        {
+
+        }
+        else if (other.CompareTag("SarıLolipop"))
+        {
+
+        }
+        else if (other.CompareTag("KarpuzluLolipop"))
+        {
 
         }
         else if (other.CompareTag("engel"))

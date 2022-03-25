@@ -27,11 +27,7 @@ public class LolipopControl : MonoBehaviour
                 transform.LookAt(player.transform.position);
 
             }
-            else
-            {
-
-            }
-
+           
             transform.GetChild(2).GetComponent<Animator>().enabled = false;
         }
 
@@ -49,7 +45,7 @@ public class LolipopControl : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(transform.position - other.transform.position);
             // transform.position = new Vector3(other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.x+0.3f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.y+0.2f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.z+0.8f);
             // transform.parent = other.gameObject.transform;
-            transform.DOMove( new Vector3(other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.x, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.y, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.z + 0.9f),10*Time.deltaTime);
+            transform.DOMove( new Vector3(other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.x, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.y-0.5f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.z + 0.9f),10*Time.deltaTime);
          
             //transform.parent = other.transform;
             transform.parent = null;

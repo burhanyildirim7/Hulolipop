@@ -158,6 +158,7 @@ GameObject:
   - component: {fileID: 4654185451127035972}
   - component: {fileID: 1315963070741873778}
   - component: {fileID: 463282843837516843}
+  - component: {fileID: -7535619417768606261}
   m_Layer: 0
   m_Name: "Sar\u0131Lolipop"
   m_TagString: "Sar\u0131Lolipop"
@@ -207,6 +208,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7270093759226220032, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
+--- !u!54 &-7535619417768606261
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4654185451127035975}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5797505508936702094
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +297,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6799495484363379259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 23a711411d689e646828a9824ec8bfd5, type: 2}
   m_CullingMode: 0

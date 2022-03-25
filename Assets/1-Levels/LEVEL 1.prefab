@@ -2887,7 +2887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -2971,7 +2971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3055,7 +3055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3619,7 +3619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: MorLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -3877,7 +3877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -4417,7 +4417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -5037,7 +5037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -5213,7 +5213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -5305,7 +5305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: MorLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -5393,7 +5393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -5945,7 +5945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -6217,7 +6217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: "Sar\u0131Lolipop"
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -6305,7 +6305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -6581,7 +6581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: MorLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -6857,7 +6857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -7317,7 +7317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: LimonluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -7409,7 +7409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder
@@ -7493,7 +7493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480761, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_TagString
-      value: collectible
+      value: KarpuzluLolipop
       objectReference: {fileID: 0}
     - target: {fileID: 7108008289387480762, guid: 3a9bb7da3f94e3f4287f7383d9df7e7d, type: 3}
       propertyPath: m_RootOrder

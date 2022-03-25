@@ -43,26 +43,38 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("collectible"))
         {
             // COLLECTIBLE CARPINCA YAPILACAKLAR...
-            Destroy(other.gameObject);
-            GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
-            GetComponent<SpawnWithDistance>().Spawn(); // Dairesel şekilde Spawn ediyor.Obje sayısı arttıkça kendi içersinde tekrar düzenleme yapıyor
+            // Destroy(other.gameObject);
+            //GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
+            //GetComponent<SpawnWithDistance>().Spawn(); // Dairesel şekilde Spawn ediyor.Obje sayısı arttıkça kendi içersinde tekrar düzenleme yapıyor
 
         }
         else if (other.CompareTag("LimonluLolipop"))
         {
-
+            Destroy(other.gameObject);
+            GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
+            GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().limonluLolipop);
+            GetComponent<SpawnWithDistance>().Spawn();
         }
         else if (other.CompareTag("MorLolipop"))
         {
-
+            Destroy(other.gameObject);
+            GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
+            GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().morLolipop);
+            GetComponent<SpawnWithDistance>().Spawn();
         }
         else if (other.CompareTag("SarıLolipop"))
         {
-
+            Destroy(other.gameObject);
+            GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
+            GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().sarıLolipop);
+            GetComponent<SpawnWithDistance>().Spawn();
         }
         else if (other.CompareTag("KarpuzluLolipop"))
         {
-
+            Destroy(other.gameObject);
+            GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
+            GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().karpuzluLolipop);
+            GetComponent<SpawnWithDistance>().Spawn();
         }
         else if (other.CompareTag("engel"))
         {
@@ -96,6 +108,7 @@ public class PlayerController : MonoBehaviour
         else if (other.CompareTag("finishTrigger"))
         {
             isFinish = true;
+            transform.position = new Vector3(0,  transform.position.y,transform.position.z);
             StartCoroutine(turnHulahop());
             
             // transform.DORotate

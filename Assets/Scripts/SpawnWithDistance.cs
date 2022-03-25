@@ -6,7 +6,7 @@ using UnityEngine;
 public class SpawnWithDistance : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject nextLolipop;
+    public List<GameObject> nextLolipops = new List<GameObject>();
 
     public GameObject morLolipop;
     public GameObject sarýLolipop;
@@ -41,14 +41,14 @@ public class SpawnWithDistance : MonoBehaviour
             var spawnPos = point + spawnDir * radius; 
 
            
-            var unit = Instantiate(nextLolipop, spawnPos, Quaternion.identity) as GameObject;
+            var unit = Instantiate(nextLolipops[i], spawnPos, Quaternion.identity) as GameObject;
 
      
             unit.transform.tag = "collected";
            
            unit.transform.parent = transform.GetChild(0).transform;
-         
-     
+
+            //nextLolipops[i].AddComponent<LolipopControl>();
             
 
            

@@ -137,7 +137,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5116237720054744047}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 23a711411d689e646828a9824ec8bfd5, type: 2}
   m_CullingMode: 0
@@ -276,6 +276,7 @@ GameObject:
   - component: {fileID: 6491890951739238614}
   - component: {fileID: 6001971755562154103}
   - component: {fileID: -644276838087295731}
+  - component: {fileID: 2328187197035491001}
   m_Layer: 0
   m_Name: LimonluLolipop
   m_TagString: LimonluLolipop
@@ -325,6 +326,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7270093759226220032, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
+--- !u!54 &2328187197035491001
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491890951739238613}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7181742324787014730
 GameObject:
   m_ObjectHideFlags: 0

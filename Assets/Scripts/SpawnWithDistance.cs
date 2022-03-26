@@ -9,7 +9,7 @@ public class SpawnWithDistance : MonoBehaviour
     public List<GameObject> nextLolipops = new List<GameObject>();
 
     public GameObject morLolipop;
-    public GameObject sarýLolipop;
+    public GameObject sariLolipop;
     public GameObject limonluLolipop;
     public GameObject karpuzluLolipop;
 

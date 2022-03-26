@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
-            GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().sarıLolipop);
+            GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().sariLolipop);
             GetComponent<SpawnWithDistance>().Spawn();
         }
         else if (other.CompareTag("KarpuzluLolipop"))

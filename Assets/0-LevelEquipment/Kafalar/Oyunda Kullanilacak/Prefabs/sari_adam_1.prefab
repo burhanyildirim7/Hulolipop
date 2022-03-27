@@ -4646,9 +4646,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3197578121669323043}
   - component: {fileID: 2822566129385960344}
+  - component: {fileID: 888969694350553181}
+  - component: {fileID: 657541890570922241}
   m_Layer: 0
   m_Name: sari_adam_1
-  m_TagString: Untagged
+  m_TagString: engel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4684,7 +4686,7 @@ Animator:
   m_GameObject: {fileID: 2822566129385960345}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ccfa59dec85184b49829502464123c2e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6ff910739a6034f88a4d55a9a749cfbf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4694,6 +4696,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &888969694350553181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822566129385960345}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &657541890570922241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822566129385960345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d70a1dc53e5724b83141795ad9c4ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouthPosition: {fileID: 3197578121669323043}
 --- !u!1 &2826223402620216207
 GameObject:
   m_ObjectHideFlags: 0
@@ -6111,7 +6139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951209195799919634}
   m_Layer: 0
-  m_Name: rig.001
+  m_Name: rig.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

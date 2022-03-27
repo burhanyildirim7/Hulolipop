@@ -5120,9 +5120,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2760175862060836706}
   - component: {fileID: 3244225597748952539}
+  - component: {fileID: 7632854607469215490}
+  - component: {fileID: 1402930834268185124}
   m_Layer: 0
   m_Name: kivircik_adam
-  m_TagString: Untagged
+  m_TagString: engel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5169,6 +5171,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &7632854607469215490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3244225597748952536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1402930834268185124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3244225597748952536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d70a1dc53e5724b83141795ad9c4ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouthPosition: {fileID: 2760175862060836706}
 --- !u!1 &3266176351085148207
 GameObject:
   m_ObjectHideFlags: 0

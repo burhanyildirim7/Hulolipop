@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ec85de1dc867746b389fcf62104d023a
+guid: fa4a1b20d6d774c00af5a878a85e3adc
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -7819035856102921626
-    second: rig.002|rig.002Action
+      74: -7434843379947545008
+    second: revizeidle01g.002|rig.002Action.001
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,11 +36,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: rig.002|rig.002Action
-      takeName: rig.002|rig.002Action
+      name: revizeidle01g.002|rig.002Action.001
+      takeName: rig.002|rig.002Action.001
       internalID: 0
       firstFrame: 0
-      lastFrame: 24
+      lastFrame: 59
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

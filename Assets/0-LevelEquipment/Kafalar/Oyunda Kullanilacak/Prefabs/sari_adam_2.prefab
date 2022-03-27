@@ -7435,9 +7435,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3755082263941971711}
   - component: {fileID: 3755082263941971710}
+  - component: {fileID: 442655173601303441}
+  - component: {fileID: 8692053237406999018}
   m_Layer: 0
   m_Name: sari_adam_2
-  m_TagString: Untagged
+  m_TagString: engel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7454,12 +7456,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4850143751068121861}
   - {fileID: 2313071923767887567}
   - {fileID: 7250755571603355156}
   - {fileID: 42954170021277571}
   - {fileID: 7022854958711500559}
   - {fileID: 3046292908959779465}
-  - {fileID: 4850143751068121861}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7473,7 +7475,7 @@ Animator:
   m_GameObject: {fileID: 4564235223601062981}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ccfa59dec85184b49829502464123c2e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1d29b88e50e3e4a63b407392651972c0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7483,6 +7485,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &442655173601303441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4564235223601062981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8692053237406999018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4564235223601062981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d70a1dc53e5724b83141795ad9c4ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouthPosition: {fileID: 3755082263941971711}
 --- !u!1 &4578821010114275259
 GameObject:
   m_ObjectHideFlags: 0
@@ -8563,7 +8591,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3755082263941971711}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6363434959936838771
 SkinnedMeshRenderer:
@@ -13731,7 +13759,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3755082263941971711}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7515947278634868594
 SkinnedMeshRenderer:
@@ -14209,7 +14237,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3755082263941971711}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2565124493798412233
 SkinnedMeshRenderer:
@@ -14760,7 +14788,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3755082263941971711}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1335711957179618251
 SkinnedMeshRenderer:
@@ -15468,7 +15496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4850143751068121861}
   m_Layer: 0
-  m_Name: rig.001
+  m_Name: rig.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15488,7 +15516,7 @@ Transform:
   m_Children:
   - {fileID: 3765498804114359138}
   m_Father: {fileID: 3755082263941971711}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -89.98021, y: 0, z: 0}
 --- !u!1 &8409782671121141052
 GameObject:
@@ -16945,7 +16973,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3755082263941971711}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1279078017391553758
 SkinnedMeshRenderer:

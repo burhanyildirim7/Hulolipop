@@ -37,7 +37,7 @@ public class KarakterPaketiMovement : MonoBehaviour
     {
         _speed = 0;
         yield return new WaitForSeconds(3);
-        _speed = 5;
+        _speed = 8;
     }
 
 }

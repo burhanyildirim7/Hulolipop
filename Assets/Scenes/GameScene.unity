@@ -585,8 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6826d214a2b9d40ab90568c700cf2ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  afterFinishCameraTransformX: 0
-  afterFinishCameraTransformY: 0
+  afterFinishCameraTransformX: 5
+  afterFinishCameraTransformY: 6
 --- !u!1 &1124119772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a053a4bd379048008b9a4e6d62bb041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 6
 --- !u!1 &2063141234
 GameObject:
   m_ObjectHideFlags: 0

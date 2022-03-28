@@ -1017,7 +1017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9117897630221189031, guid: 1ffbe273a93feb0409408d7ffea5e01a, type: 3}
       propertyPath: m_TagString
-      value: finishKafa
+      value: finishSonKafa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ffbe273a93feb0409408d7ffea5e01a, type: 3}
@@ -1355,8 +1355,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.05, y: 0.3, z: 0.3}
-  m_Center: {x: 0, y: 0.2, z: 0}
+  m_Size: {x: 0.6192375, y: 1, z: 1}
+  m_Center: {x: 0.28461915, y: 0.2, z: 0.0000000034038528}
 --- !u!1 &8464848059230097107 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8741458494446813895, guid: 1ffbe273a93feb0409408d7ffea5e01a, type: 3}

@@ -66,12 +66,26 @@ public class LolipopControl : MonoBehaviour
         if (other.gameObject.tag == "finishKafa")
         {
             player = null;
+            FindDividedLolipop();
             transform.DOMove(new Vector3(0,1,transform.position.z),5*Time.deltaTime);
             transform.parent = null;
             transform.tag = "Untagged";
             other.gameObject.tag = "Untagged";
             GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 1;
             
+            transform.eulerAngles = new Vector3(-90, 0, 0);
+        }
+
+        if (other.gameObject.tag == "finishSonKafa")
+        {
+            player = null;
+            FindDividedLolipop();
+            transform.DOMove(new Vector3(0, 1, transform.position.z), 5 * Time.deltaTime);
+            transform.parent = null;
+            transform.tag = "Untagged";
+            
+            GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 1;
+
             transform.eulerAngles = new Vector3(-90, 0, 0);
         }
     }

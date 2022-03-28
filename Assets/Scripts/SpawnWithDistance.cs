@@ -71,7 +71,12 @@ public class SpawnWithDistance : MonoBehaviour
 
         
         }
-  
+
+        if (nextLolipops.Count <= 0 && GetComponent<PlayerController>().isFinish)
+        {
+            GameObject.Find("KarakterPaketi").GetComponent<KarakterPaketiMovement>().enabled = false;
+        }
+
     }
 
     public void Spawn()

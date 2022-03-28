@@ -78,6 +78,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5775320191234453650}
     m_Modifications:
+    - target: {fileID: 888969694350553181, guid: dd029ec9c30e948c8a002cb71ca1c7c6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2822566129385960345, guid: dd029ec9c30e948c8a002cb71ca1c7c6, type: 3}
       propertyPath: m_Name
       value: sari_adam_1
@@ -188,6 +192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: kisa_sac_adam
       objectReference: {fileID: 0}
+    - target: {fileID: 7690674888105354537, guid: 65ed721985b3c40608972c87094467dc, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65ed721985b3c40608972c87094467dc, type: 3}
 --- !u!4 &2053441915116119496 stripped
@@ -202,6 +210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5775320191234453650}
     m_Modifications:
+    - target: {fileID: 6047708153400212761, guid: 74252805e4df645f68a37baa5e31505f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8100300199508632328, guid: 74252805e4df645f68a37baa5e31505f, type: 3}
       propertyPath: m_Name
       value: "kahverengi_kad\u0131n"
@@ -264,6 +276,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5775320191234453650}
     m_Modifications:
+    - target: {fileID: 442655173601303441, guid: cac4a98d50acf41bca7b0cbd78bf4774, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3755082263941971711, guid: cac4a98d50acf41bca7b0cbd78bf4774, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -326,6 +342,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5775320191234453650}
     m_Modifications:
+    - target: {fileID: 4800637871399223907, guid: 7c40b44c0bfb74f15aea3e501c17dd3f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5826689995997878992, guid: 7c40b44c0bfb74f15aea3e501c17dd3f, type: 3}
       propertyPath: m_Name
       value: "topuzlu_sar\u0131_kad\u0131n"
@@ -388,6 +408,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5775320191234453650}
     m_Modifications:
+    - target: {fileID: 3595260018146138575, guid: 69e91b11fabae48ada6e735cf9e28989, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7447669638088177743, guid: 69e91b11fabae48ada6e735cf9e28989, type: 3}
       propertyPath: m_Name
       value: "duz_sari_kad\u0131n"
@@ -498,6 +522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: kivircik_adam
       objectReference: {fileID: 0}
+    - target: {fileID: 7632854607469215490, guid: d0c7bd8cec157465eada7a9357be2fae, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0c7bd8cec157465eada7a9357be2fae, type: 3}
 --- !u!4 &6522772448698352100 stripped
@@ -512,6 +540,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5775320191234453650}
     m_Modifications:
+    - target: {fileID: 1171257899230346198, guid: 5141983303e884b71bf0a77e227fbf44, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1691177220651792877, guid: 5141983303e884b71bf0a77e227fbf44, type: 3}
       propertyPath: m_RootOrder
       value: 4

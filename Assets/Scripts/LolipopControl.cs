@@ -16,23 +16,16 @@ public class LolipopControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-     
-
         if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().isFinish == false)
         {
             if (player != null)
             {
                 transform.LookAt(player.transform.position);
-
             }
-           
-            transform.GetChild(2).GetComponent<Animator>().enabled = false;
-        }
 
-     
-        
+
+          
+        }
     }
 
      void OnTriggerEnter(Collider other)
@@ -40,6 +33,11 @@ public class LolipopControl : MonoBehaviour
         
         if (other.gameObject.tag == "engel")
         {
+
+            FindDividedLolipop();
+
+
+
 
             player = null;
             transform.rotation = Quaternion.LookRotation(transform.position - other.transform.position);
@@ -51,6 +49,7 @@ public class LolipopControl : MonoBehaviour
             transform.parent = null;
             transform.tag = "Untagged";
             other.gameObject.tag = "Untagged";
+            
             GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 2;
             GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().Spawn();
             transform.localScale = new Vector3(1, 1, 1);
@@ -69,8 +68,57 @@ public class LolipopControl : MonoBehaviour
             
             transform.eulerAngles = new Vector3(-90, 0, 0);
         }
+    }
 
-    
- 
+    void FindDividedLolipop() // Halkadan Ayrýlan Lolipopu Tespit Ediyor
+    {
+   
+        for (int i = 0; i < 20; i++)
+        {
+
+            if (gameObject.name == "NewLolipop(Clone)")
+            {
+                Debug.Log("Ayrýlan Obje Adý = KARPUZ ");
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops[i].gameObject.name == "NewLolipop")
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops.RemoveAt(i);
+                    break;
+                }
+
+            }
+
+            else if (gameObject.name == "LimonluLolipop(Clone)")
+            {
+                Debug.Log("Ayrýlan Obje Adý = Limon ");
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops[i].gameObject.name == "LimonluLolipop")
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops.RemoveAt(i);
+                    break;
+                }
+            }
+
+            else if (gameObject.name == "MorLolipop(Clone)")
+            {
+                Debug.Log("Ayrýlan Obje Adý = Mor ");
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops[i].gameObject.name == "MorLolipop")
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops.RemoveAt(i);
+                    break;
+                }
+            }
+
+            else if (gameObject.name == "SarýLolipop(Clone)")
+            {
+                Debug.Log("Ayrýlan Obje Adý = Sarý ");
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops[i].gameObject.name == "SarýLolipop")
+                {
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().nextLolipops.RemoveAt(i);
+                    break;
+                }
+            }
+
+         
+        }
+
     }
 }

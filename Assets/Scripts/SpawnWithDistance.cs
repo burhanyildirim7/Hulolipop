@@ -64,7 +64,14 @@ public class SpawnWithDistance : MonoBehaviour
 
     private void Update()
     {
-   
+        for (var i = nextLolipops.Count - 1; i > -1; i--)
+        {
+            if (nextLolipops[i] == null)
+                nextLolipops.RemoveAt(i);
+
+        
+        }
+  
     }
 
     public void Spawn()

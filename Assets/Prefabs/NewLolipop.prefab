@@ -349,7 +349,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4223004857679979663}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 23a711411d689e646828a9824ec8bfd5, type: 2}
   m_CullingMode: 0
@@ -944,8 +944,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5790715471341289865}
-  - component: {fileID: -8634436158240895091}
   - component: {fileID: -233486748729155800}
+  - component: {fileID: -8634436158240895091}
   - component: {fileID: 2324868412038972559}
   m_Layer: 0
   m_Name: NewLolipop
@@ -973,19 +973,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-8634436158240895091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5790715471341289866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c309fbe52c9e0642b28d0aee2cf1caa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7270093759226220032, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
 --- !u!65 &-233486748729155800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -999,6 +986,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 2.8508387}
   m_Center: {x: 0, y: 0, z: 0.8245806}
+--- !u!114 &-8634436158240895091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790715471341289866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c309fbe52c9e0642b28d0aee2cf1caa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7270093759226220032, guid: b324777cd8b7bbb4b82069d9cb3552ef, type: 3}
 --- !u!54 &2324868412038972559
 Rigidbody:
   m_ObjectHideFlags: 0

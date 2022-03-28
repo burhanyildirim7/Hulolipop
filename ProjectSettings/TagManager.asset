@@ -20,6 +20,10 @@ TagManager:
   - "Sar\u0131Lolipop"
   - KarpuzluLolipop
   - finishSonKafa
+  - DirectionalLight
+  - EventSystem
+  - Hulahop
+  - FacebookController
   layers:
   - Default
   - TransparentFX

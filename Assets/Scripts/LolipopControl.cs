@@ -22,10 +22,11 @@ public class LolipopControl : MonoBehaviour
             {
                 transform.LookAt(player.transform.position);
             }
-
-
-          
+           
+              
+            
         }
+        
     }
 
      void OnTriggerEnter(Collider other)
@@ -36,10 +37,10 @@ public class LolipopControl : MonoBehaviour
 
             FindDividedLolipop();
 
-            
-         
 
 
+
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().shouldDeleteObjects.Add(gameObject);
             player = null;
             transform.rotation = Quaternion.LookRotation(transform.position - other.transform.position);
             // transform.position = new Vector3(other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.x+0.3f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.y+0.2f, other.gameObject.GetComponent<MouthPosition>().mouthPosition.transform.position.z+0.8f);
@@ -72,7 +73,7 @@ public class LolipopControl : MonoBehaviour
             transform.tag = "Untagged";
             other.gameObject.tag = "Untagged";
             GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 1;
-            
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().shouldDeleteObjects.Add(gameObject);
             transform.eulerAngles = new Vector3(-90, 0, 0);
         }
 
@@ -83,7 +84,7 @@ public class LolipopControl : MonoBehaviour
             transform.DOMove(new Vector3(0, 1, transform.position.z), 5 * Time.deltaTime);
             transform.parent = null;
             transform.tag = "Untagged";
-            
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().shouldDeleteObjects.Add(gameObject);
             GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 1;
 
             transform.eulerAngles = new Vector3(-90, 0, 0);

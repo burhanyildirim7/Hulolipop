@@ -18,10 +18,6 @@ public class KarakterPaketiMovement : MonoBehaviour
         {
             transform.Translate(Vector3.forward * Time.deltaTime * _speed);
         }
-        else
-        {
-
-        }
         
     }
 

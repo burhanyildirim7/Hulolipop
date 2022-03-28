@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
 
     public bool isFinish = false;
 
+   
+    public List<GameObject> shouldDeleteObjects = new List<GameObject>();
+
 
     private void Awake()
     {
@@ -28,6 +31,9 @@ public class PlayerController : MonoBehaviour
 
      void Update()
     {
+
+
+    
 
         transform.GetChild(0).transform.Rotate(0, 0, 50 * Time.deltaTime);
     }
@@ -99,8 +105,9 @@ public class PlayerController : MonoBehaviour
             GameController.instance.isContinue = false;
             GameController.instance.ScoreCarp(7);  // Bu fonksiyon normalde x ler hesaplandıktan sonra çağrılacak. Parametre olarak x i alıyor. 
             // x değerine göre oyuncunun total scoreunu hesaplıyor.. x li olmayan oyunlarda parametre olarak 1 gönderilecek.
-            UIController.instance.ActivateWinScreen(); // finish noktasına gelebildiyse her türlü win screen aktif edilecek.. ama burada değil..
-                                                       // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
+            UIController.instance.ActivateWinScreen();
+            // UIController.instance.ActivateLooseScreen();  // finish noktasına gelebildiyse her türlü win screen aktif edilecek.. ama burada değil..
+                                                            // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
 
 
         }
@@ -110,8 +117,14 @@ public class PlayerController : MonoBehaviour
             isFinish = true;
             transform.position = new Vector3(0,  transform.position.y,transform.position.z);
             StartCoroutine(turnHulahop());
-            
-            // transform.DORotate
+
+
+            for (int i = 0; i < shouldDeleteObjects.Count; i++)
+            {
+                Destroy(shouldDeleteObjects[i]);
+            }
+
+
         }
 
     }
@@ -130,6 +143,11 @@ public class PlayerController : MonoBehaviour
         GetComponent<Collider>().enabled = true;
         GetComponent<SpawnWithDistance>().DestroyLolipops();
         GetComponent<SpawnWithDistance>().objectNumber = 1;
+        isFinish = false;
+        transform.DORotate(new Vector3(0, 0, 0),  1);
+        GameObject.Find("KarakterPaketi").GetComponent<KarakterPaketiMovement>().enabled = true;
+        transform.localScale = new Vector3(1, 1, 1);
+        shouldDeleteObjects.Clear();
     }
 
     IEnumerator turnHulahop()
@@ -137,6 +155,22 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(1);
         transform.DORotate(new Vector3(0, 0, 90), 7 * Time.deltaTime);
         transform.DOMoveY(4, 7 * Time.deltaTime);
+    }
+
+    public void FinishScreen()
+    {
+      
+            // finishe collider eklenecek levellerde...
+            // FINISH NOKTASINA GELINCE YAPILACAKLAR... Totalscore artırma, x işlemleri, efektler v.s. v.s.
+            GameController.instance.isContinue = false;
+            GameController.instance.ScoreCarp(2);  // Bu fonksiyon normalde x ler hesaplandıktan sonra çağrılacak. Parametre olarak x i alıyor. 
+            // x değerine göre oyuncunun total scoreunu hesaplıyor.. x li olmayan oyunlarda parametre olarak 1 gönderilecek.
+            UIController.instance.ActivateWinScreen();
+        // UIController.instance.ActivateLooseScreen();  // finish noktasına gelebildiyse her türlü win screen aktif edilecek.. ama burada değil..
+        // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
+
+
+      
     }
 
 }

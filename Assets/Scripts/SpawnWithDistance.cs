@@ -20,7 +20,7 @@ public class SpawnWithDistance : MonoBehaviour
     
 
     public int objectNumber = 1;
-    float rad = 2f;
+    public float rad = 2f;
     public void CreateEnemiesAroundPoint(int num, Vector3 point, float radius)
     {
 
@@ -75,6 +75,7 @@ public class SpawnWithDistance : MonoBehaviour
         if (nextLolipops.Count <= 0 && GetComponent<PlayerController>().isFinish)
         {
             GameObject.Find("KarakterPaketi").GetComponent<KarakterPaketiMovement>().enabled = false;
+            
             GetComponent<PlayerController>().FinishScreen();
         }
 

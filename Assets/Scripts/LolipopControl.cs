@@ -69,7 +69,20 @@ public class LolipopControl : MonoBehaviour
             player = null;
             FindDividedLolipop();
             transform.DOMove(new Vector3(0,1,transform.position.z),5*Time.deltaTime);
-            transform.parent = null;
+            if (GameObject.FindGameObjectWithTag("Level1") != null)
+            {
+                transform.parent = GameObject.FindGameObjectWithTag("Level1").transform;
+            }
+
+            else if (GameObject.FindGameObjectWithTag("Level2") != null)
+            {
+                transform.parent = GameObject.FindGameObjectWithTag("Level2").transform;
+            }
+
+            else if (GameObject.FindGameObjectWithTag("Level3") != null)
+            {
+                transform.parent = GameObject.FindGameObjectWithTag("Level3").transform;
+            }
             transform.tag = "Untagged";
             other.gameObject.tag = "Untagged";
             GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 1;
@@ -88,13 +101,14 @@ public class LolipopControl : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnWithDistance>().objectNumber -= 1;
 
             transform.eulerAngles = new Vector3(-90, 0, 0);
+
         }
     }
 
     void FindDividedLolipop() // Halkadan Ayrýlan Lolipopu Tespit Ediyor
     {
    
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 50; i++)
         {
 
             if (gameObject.name == "NewLolipop(Clone)")

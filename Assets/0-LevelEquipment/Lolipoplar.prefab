@@ -75,9 +75,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5556862845792523605}
   - component: {fileID: 5196020456434083725}
+  - component: {fileID: 8270827241123785319}
   m_Layer: 0
   m_Name: Lollipop (1)
-  m_TagString: Untagged
+  m_TagString: KarpuzluLolipop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,6 +119,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &8270827241123785319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604421746909684668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.04, z: 0.01}
+  m_Center: {x: 0, y: -0.01, z: 0}
 --- !u!1 &650634654314438368
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,9 +534,10 @@ GameObject:
   m_Component:
   - component: {fileID: 731050336725346454}
   - component: {fileID: 8535787079439512018}
+  - component: {fileID: 6911758642976823190}
   m_Layer: 0
   m_Name: Elyapimi2
-  m_TagString: Untagged
+  m_TagString: MorLolipop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -563,6 +578,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6911758642976823190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3658797255291902282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.27, y: 2.83, z: 1}
+  m_Center: {x: 0.01492506, y: -0.7518008, z: 0}
 --- !u!1 &4327262357742630617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,9 +1498,10 @@ GameObject:
   m_Component:
   - component: {fileID: 371106269791850589}
   - component: {fileID: 769646371303055370}
+  - component: {fileID: 6620662916801470566}
   m_Layer: 0
   m_Name: Elyapimi1
-  m_TagString: Untagged
+  m_TagString: MorLolipop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1513,6 +1542,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6620662916801470566
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7537153355652688824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2737228, y: 2.830936, z: 1}
+  m_Center: {x: 0.014925063, y: -0.7518008, z: 0}
 --- !u!1 &7590111140084249421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,9 +1694,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8368321955850910576}
   - component: {fileID: 6668761569789194460}
+  - component: {fileID: 6066984355665373989}
   m_Layer: 0
   m_Name: Lollipop (2)
-  m_TagString: Untagged
+  m_TagString: "Sar\u0131Lolipop"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1695,6 +1738,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6066984355665373989
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966354586005982405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.04, z: 0.01}
+  m_Center: {x: 0, y: -0.01, z: 0}
 --- !u!1 &9014151429320574926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,9 +1927,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2256949938912676998}
   - component: {fileID: 8500704157191677484}
+  - component: {fileID: 5647648229753777438}
   m_Layer: 0
   m_Name: Lollipop
-  m_TagString: Untagged
+  m_TagString: LimonluLolipop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1914,3 +1971,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &5647648229753777438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9201949791139212675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.04, z: 0.01}
+  m_Center: {x: 0, y: -0.01, z: 0}

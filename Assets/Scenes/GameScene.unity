@@ -745,7 +745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443049507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.97, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -861,7 +861,7 @@ MonoBehaviour:
   xVarMi: 1
   collectibleVarMi: 1
   isFinish: 0
-  untaggedObject: []
+  shouldDeleteObjects: []
 --- !u!54 &1443049515
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -896,6 +896,7 @@ MonoBehaviour:
   limonluLolipop: {fileID: 6491890951739238613, guid: 5c13b413d38bb2b4b9061781412298fb, type: 3}
   karpuzluLolipop: {fileID: 5790715471341289866, guid: 4768d9b597e28364da28ca8d7ac0df59, type: 3}
   objectNumber: 1
+  rad: 2
 --- !u!1001 &1993919928
 PrefabInstance:
   m_ObjectHideFlags: 0

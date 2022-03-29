@@ -24,6 +24,9 @@ TagManager:
   - EventSystem
   - Hulahop
   - FacebookController
+  - Level1
+  - Level2
+  - Level3
   layers:
   - Default
   - TransparentFX

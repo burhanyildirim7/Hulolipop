@@ -31,10 +31,6 @@ public class PlayerController : MonoBehaviour
 
      void Update()
     {
-
-
-    
-
         transform.GetChild(0).transform.Rotate(0, 0, 50 * Time.deltaTime);
     }
 
@@ -118,7 +114,8 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(0,  transform.position.y,transform.position.z);
             StartCoroutine(turnHulahop());
 
-
+            GetComponent<SwerveMovement>().enabled = false;
+            GetComponent<SwerveInputSystem>().enabled = false;
             for (int i = 0; i < shouldDeleteObjects.Count; i++)
             {
                 Destroy(shouldDeleteObjects[i]);
@@ -146,8 +143,13 @@ public class PlayerController : MonoBehaviour
         isFinish = false;
         transform.DORotate(new Vector3(0, 0, 0),  1);
         GameObject.Find("KarakterPaketi").GetComponent<KarakterPaketiMovement>().enabled = true;
+        GetComponent<SwerveMovement>().enabled = true;
+        GetComponent<SwerveInputSystem>().enabled = true;
         transform.localScale = new Vector3(1, 1, 1);
         shouldDeleteObjects.Clear();
+        GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0, 1, 0);
+        GetComponent<SpawnWithDistance>().objectNumber = 1;
+        GetComponent<SpawnWithDistance>().rad =2f;   
     }
 
     IEnumerator turnHulahop()
@@ -169,8 +171,8 @@ public class PlayerController : MonoBehaviour
         // UIController.instance.ActivateLooseScreen();  // finish noktasına gelebildiyse her türlü win screen aktif edilecek.. ama burada değil..
         // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
 
+       
 
-      
     }
 
 }

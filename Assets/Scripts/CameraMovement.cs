@@ -27,7 +27,7 @@ public class CameraMovement : MonoBehaviour
 
         if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().isFinish)
         {
-            afterFinishCameraTransformX = 5;
+            afterFinishCameraTransformX = 4;
             afterFinishCameraTransformY = 6;
             transform.position = Vector3.MoveTowards(transform.position, new Vector3(afterFinishCameraTransformX, afterFinishCameraTransformY, Player.transform.position.z + aradakiFark.z), 1);
             transform.DORotate(new Vector3(0,-20,0),8*Time.deltaTime);

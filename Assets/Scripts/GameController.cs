@@ -23,6 +23,8 @@ public class GameController : MonoBehaviour
         isContinue = false;
     }
 
+    
+
 
     /// <summary>
     /// Bu fonksiyon geçerli leveldeki scoreu belirtilen miktarda artirir veya azaltir. Artirma icin +5 gibi pozitif eksiltme
@@ -33,7 +35,7 @@ public class GameController : MonoBehaviour
 	{
         if(PlayerController.instance.collectibleVarMi) score += eklenecekScore;
         // Eðer oyunda collectible yok ise developer kendi score sistemini yazmalý...
-
+  
     }
 
 

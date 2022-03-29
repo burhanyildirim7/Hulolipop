@@ -32,8 +32,8 @@ public class KarakterPaketiMovement : MonoBehaviour
     IEnumerator speedControl()
     {
         _speed = 0;
-        yield return new WaitForSeconds(3);
-        _speed = 8;
+        yield return new WaitForSeconds(1);
+        _speed = 15;
     }
 
 }

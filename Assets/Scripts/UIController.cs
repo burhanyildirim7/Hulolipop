@@ -116,6 +116,7 @@ public class UIController : MonoBehaviour
 	{
 		GamePanel.SetActive(false);
 		StartCoroutine(WinScreenDelay());
+		Debug.Log(GameController.instance.score.ToString());
 	}
 
 	IEnumerator WinScreenDelay()
@@ -138,6 +139,8 @@ public class UIController : MonoBehaviour
 			winScreenScoreText.text = sayac.ToString();
 			yield return new WaitForSeconds(.05f);
 		}
+
+		
 	}
 
 	IEnumerator WinScreenEffect(GameObject effectObj)
@@ -223,7 +226,7 @@ public class UIController : MonoBehaviour
 		WinPanel.SetActive(false);
 		LoosePanel.SetActive(false);
 		GamePanel.SetActive(false);
-		tapToStartScoreText.text = PlayerPrefs.GetInt("total").ToString();
+		tapToStartScoreText.text = PlayerPrefs.GetInt("totalScore").ToString();
 	}
 
 	

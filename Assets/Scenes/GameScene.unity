@@ -857,7 +857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd91887c7e2fa48528efffd028291d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectibleDegeri: 10
+  collectibleDegeri: 1
   xVarMi: 1
   collectibleVarMi: 1
   isFinish: 0
@@ -895,6 +895,7 @@ MonoBehaviour:
   sariLolipop: {fileID: 4654185451127035975, guid: b86200af3a37e0844bac9a09c19cc882, type: 3}
   limonluLolipop: {fileID: 6491890951739238613, guid: 5c13b413d38bb2b4b9061781412298fb, type: 3}
   karpuzluLolipop: {fileID: 5790715471341289866, guid: 4768d9b597e28364da28ca8d7ac0df59, type: 3}
+  calculateCoin: 0
   objectNumber: 1
   rad: 2
 --- !u!1001 &1993919928
@@ -1147,7 +1148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a053a4bd379048008b9a4e6d62bb041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 25
+  _speed: 45
 --- !u!1 &2063141234
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,7 +31,16 @@ public class PlayerController : MonoBehaviour
 
      void Update()
     {
-        transform.GetChild(0).transform.Rotate(0, 0, 50 * Time.deltaTime);
+       
+
+        if (isFinish)
+        {
+            transform.GetChild(0).transform.Rotate(0, 0, 50 * Time.deltaTime * 3);
+        }
+        else
+        {
+            transform.GetChild(0).transform.Rotate(0, 0, 50 * Time.deltaTime);
+        }
     }
 
     /// <summary>
@@ -149,14 +158,15 @@ public class PlayerController : MonoBehaviour
         shouldDeleteObjects.Clear();
         GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0, 1, 0);
         GetComponent<SpawnWithDistance>().objectNumber = 1;
-        GetComponent<SpawnWithDistance>().rad =2f;   
+        GetComponent<SpawnWithDistance>().rad =2f;
+        GetComponent<SpawnWithDistance>().calculateCoin = true;
     }
 
     IEnumerator turnHulahop()
     {
-        yield return new WaitForSeconds(1);
-        transform.DORotate(new Vector3(0, 0, 90), 7 * Time.deltaTime);
-        transform.DOMoveY(4, 7 * Time.deltaTime);
+        yield return new WaitForSeconds(0.5f);
+        transform.DORotate(new Vector3(0, 0, 90), 100 * Time.deltaTime);
+        transform.DOMoveY(4, 15 * Time.deltaTime);
     }
 
     public void FinishScreen()

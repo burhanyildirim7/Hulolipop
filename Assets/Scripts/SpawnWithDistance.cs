@@ -15,8 +15,8 @@ public class SpawnWithDistance : MonoBehaviour
 
     GameObject[] lolipop;
 
-   
 
+    public bool calculateCoin = false;
     
 
     public int objectNumber = 1;
@@ -61,7 +61,10 @@ public class SpawnWithDistance : MonoBehaviour
     
 
     }
-
+     void Start()
+    {
+        calculateCoin = true;
+    }
     private void Update()
     {
         for (var i = nextLolipops.Count - 1; i > -1; i--)
@@ -75,8 +78,14 @@ public class SpawnWithDistance : MonoBehaviour
         if (nextLolipops.Count <= 0 && GetComponent<PlayerController>().isFinish)
         {
             GameObject.Find("KarakterPaketi").GetComponent<KarakterPaketiMovement>().enabled = false;
-            
-            GetComponent<PlayerController>().FinishScreen();
+
+  
+            if (calculateCoin)
+            {
+                GetComponent<PlayerController>().FinishScreen();
+                calculateCoin = false;
+            }
+    
         }
 
     }

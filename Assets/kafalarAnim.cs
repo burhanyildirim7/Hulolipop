@@ -17,7 +17,7 @@ public class kafalarAnim : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(transform.position, player.transform.position);
-        Debug.Log(distance);
+       
         if (distance<=15f)
         {
             kafaAnim.SetBool("saldiri", true);

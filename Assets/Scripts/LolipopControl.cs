@@ -103,6 +103,13 @@ public class LolipopControl : MonoBehaviour
             transform.eulerAngles = new Vector3(-90, 0, 0);
 
         }
+
+        if (other.gameObject.tag == "x")
+        {
+            GameObject.FindGameObjectWithTag("CalculateX").GetComponent<CalculateX>().allX.Add(other.gameObject);
+            other.gameObject.GetComponent<BoxCollider>().enabled = false;
+            
+        }
     }
 
     void FindDividedLolipop() // Halkadan Ayrýlan Lolipopu Tespit Ediyor

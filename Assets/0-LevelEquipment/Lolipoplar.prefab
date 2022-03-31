@@ -1697,7 +1697,7 @@ GameObject:
   - component: {fileID: 6066984355665373989}
   m_Layer: 0
   m_Name: Lollipop (2)
-  m_TagString: "Sar\u0131Lolipop"
+  m_TagString: SariLolipop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

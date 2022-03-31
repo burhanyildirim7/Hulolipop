@@ -7,20 +7,34 @@ public class kafalarAnim : MonoBehaviour
     float distance;
     GameObject player;
     Animator kafaAnim;
+
+    bool efektBasladi;
+
     void Start()
     {
-         player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
         kafaAnim = GetComponent<Animator>();
+        efektBasladi = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         distance = Vector3.Distance(transform.position, player.transform.position);
-       
-        if (distance<=15f)
+
+        if (distance <= 15f)
         {
             kafaAnim.SetBool("saldiri", true);
+            if (efektBasladi == false)
+            {
+                GetComponent<KafaEfectScript>().SaskinEmojiBaslat();
+                efektBasladi = true;
+            }
+            else
+            {
+
+            }
+
         }
     }
 

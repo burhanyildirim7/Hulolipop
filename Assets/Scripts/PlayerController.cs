@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     public bool isFinish = false;
 
-   
+
     public List<GameObject> shouldDeleteObjects = new List<GameObject>();
 
 
@@ -29,9 +29,9 @@ public class PlayerController : MonoBehaviour
         StartingEvents();
     }
 
-     void Update()
+    void Update()
     {
-       
+
 
         if (isFinish)
         {
@@ -61,6 +61,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.CompareTag("LimonluLolipop"))
         {
+            MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
             Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
             GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().limonluLolipop);
@@ -68,13 +69,15 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.CompareTag("MorLolipop"))
         {
+            MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
             Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
             GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().morLolipop);
             GetComponent<SpawnWithDistance>().Spawn();
         }
-        else if (other.CompareTag("SarıLolipop"))
+        else if (other.CompareTag("SariLolipop"))
         {
+            MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
             Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
             GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().sariLolipop);
@@ -82,6 +85,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.CompareTag("KarpuzluLolipop"))
         {
+            MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
             Destroy(other.gameObject);
             GameController.instance.SetScore(collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
             GetComponent<SpawnWithDistance>().nextLolipops.Add(GetComponent<SpawnWithDistance>().karpuzluLolipop);
@@ -90,6 +94,8 @@ public class PlayerController : MonoBehaviour
         else if (other.CompareTag("engel"))
         {
             // ENGELELRE CARPINCA YAPILACAKLAR....
+
+            MoreMountains.NiceVibrations.MMVibrationManager.Haptic(MoreMountains.NiceVibrations.HapticTypes.MediumImpact);
 
             GameController.instance.SetScore(-collectibleDegeri); // ORNEK KULLANIM detaylar icin ctrl+click yapip fonksiyon aciklamasini oku
 
@@ -112,7 +118,7 @@ public class PlayerController : MonoBehaviour
             // x değerine göre oyuncunun total scoreunu hesaplıyor.. x li olmayan oyunlarda parametre olarak 1 gönderilecek.
             UIController.instance.ActivateWinScreen();
             // UIController.instance.ActivateLooseScreen();  // finish noktasına gelebildiyse her türlü win screen aktif edilecek.. ama burada değil..
-                                                            // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
+            // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
 
 
         }
@@ -120,7 +126,7 @@ public class PlayerController : MonoBehaviour
         else if (other.CompareTag("finishTrigger"))
         {
             isFinish = true;
-            transform.position = new Vector3(0,  transform.position.y,transform.position.z);
+            transform.position = new Vector3(0, transform.position.y, transform.position.z);
             StartCoroutine(turnHulahop());
 
             GetComponent<SwerveMovement>().enabled = false;
@@ -142,23 +148,23 @@ public class PlayerController : MonoBehaviour
     public void StartingEvents()
     {
         transform.parent.transform.rotation = Quaternion.Euler(0, 0, 0);
-        transform.parent.transform.position = Vector3.zero;
+        gameObject.transform.parent.transform.position = new Vector3(0, 1.5f, 0);
         GameController.instance.isContinue = false;
         GameController.instance.score = 0;
-        transform.position = new Vector3(0, transform.position.y, 0);
+        //transform.position = new Vector3(0, 1, 0);
         GetComponent<Collider>().enabled = true;
         GetComponent<SpawnWithDistance>().DestroyLolipops();
         GetComponent<SpawnWithDistance>().objectNumber = 1;
         isFinish = false;
-        transform.DORotate(new Vector3(0, 0, 0),  1);
+        transform.DORotate(new Vector3(0, 0, 0), 1);
         GameObject.Find("KarakterPaketi").GetComponent<KarakterPaketiMovement>().enabled = true;
         GetComponent<SwerveMovement>().enabled = true;
         GetComponent<SwerveInputSystem>().enabled = true;
         transform.localScale = new Vector3(1, 1, 1);
         shouldDeleteObjects.Clear();
-        GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0, 1, 0);
+
         GetComponent<SpawnWithDistance>().objectNumber = 1;
-        GetComponent<SpawnWithDistance>().rad =2f;
+        GetComponent<SpawnWithDistance>().rad = 2f;
         GetComponent<SpawnWithDistance>().calculateCoin = true;
     }
 
@@ -171,18 +177,18 @@ public class PlayerController : MonoBehaviour
 
     public void FinishScreen()
     {
-      
-            // finishe collider eklenecek levellerde...
-            // FINISH NOKTASINA GELINCE YAPILACAKLAR... Totalscore artırma, x işlemleri, efektler v.s. v.s.
-            GameController.instance.isContinue = false;
-      
-            GameController.instance.ScoreCarp(Mathf.RoundToInt((GameObject.FindGameObjectWithTag("CalculateX").GetComponent<CalculateX>().allX.Count+1)*0.5f));  // Bu fonksiyon normalde x ler hesaplandıktan sonra çağrılacak. Parametre olarak x i alıyor. 
-            // x değerine göre oyuncunun total scoreunu hesaplıyor.. x li olmayan oyunlarda parametre olarak 1 gönderilecek.
-            UIController.instance.ActivateWinScreen();
+
+        // finishe collider eklenecek levellerde...
+        // FINISH NOKTASINA GELINCE YAPILACAKLAR... Totalscore artırma, x işlemleri, efektler v.s. v.s.
+        GameController.instance.isContinue = false;
+
+        GameController.instance.ScoreCarp(Mathf.RoundToInt((GameObject.FindGameObjectWithTag("CalculateX").GetComponent<CalculateX>().allX.Count + 1) * 0.5f));  // Bu fonksiyon normalde x ler hesaplandıktan sonra çağrılacak. Parametre olarak x i alıyor. 
+                                                                                                                                                                 // x değerine göre oyuncunun total scoreunu hesaplıyor.. x li olmayan oyunlarda parametre olarak 1 gönderilecek.
+        UIController.instance.ActivateWinScreen();
         // UIController.instance.ActivateLooseScreen();  // finish noktasına gelebildiyse her türlü win screen aktif edilecek.. ama burada değil..
         // normal de bu kodu x ler hesaplandıktan sonra çağıracağız. Ve bu kod çağrıldığında da kazanılan puanlar animasyonlu şekilde artacak..
 
-       
+
 
     }
 

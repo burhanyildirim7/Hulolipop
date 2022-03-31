@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 463282843837516843}
   - component: {fileID: -7535619417768606261}
   m_Layer: 0
-  m_Name: "Sar\u0131Lolipop"
+  m_Name: SariLolipop
   m_TagString: "Sar\u0131Lolipop"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

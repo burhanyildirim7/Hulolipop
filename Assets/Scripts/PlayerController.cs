@@ -151,7 +151,7 @@ public class PlayerController : MonoBehaviour
         gameObject.transform.parent.transform.position = new Vector3(0, 1.5f, 0);
         GameController.instance.isContinue = false;
         GameController.instance.score = 0;
-        //transform.position = new Vector3(0, 1, 0);
+        transform.localPosition = new Vector3(0, 0, 0);
         GetComponent<Collider>().enabled = true;
         GetComponent<SpawnWithDistance>().DestroyLolipops();
         GetComponent<SpawnWithDistance>().objectNumber = 1;

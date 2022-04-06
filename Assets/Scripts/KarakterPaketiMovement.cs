@@ -8,7 +8,7 @@ public class KarakterPaketiMovement : MonoBehaviour
 
     void Start()
     {
-     
+
     }
 
 
@@ -18,10 +18,10 @@ public class KarakterPaketiMovement : MonoBehaviour
         {
             transform.Translate(Vector3.forward * Time.deltaTime * _speed);
         }
-        
+
     }
 
-     void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "finishTrigger")
         {
@@ -33,7 +33,7 @@ public class KarakterPaketiMovement : MonoBehaviour
     {
         _speed = 0;
         yield return new WaitForSeconds(1);
-        _speed = 15;
+        _speed = 10;
     }
 
 }
